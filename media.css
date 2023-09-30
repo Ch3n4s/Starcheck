@@ -1,0 +1,72 @@
+@media screen and (max-width:760px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{        background-color: #eee;
+        display: inline-block;
+    }
+    #cc{
+        display: none;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    p{
+        width: 97%;
+        font-size: 16px;
+        color: black;
+    }
+    .carro-starcheck img{
+        padding: 70px;
+        width: 450px;
+        margin-left: 1%
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+    
+    input[type="submit"]{
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #681212;
+        color: #eee;
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column; 
+        gap: 30px;
+    }
+
+    img{
+        width: 25px;
+    }
+    .all-secundary-information{
+        display: inline-flex;
+        justify-content: space-between;
+        gap: 25%;
+
+        
+    }
+    #ccc{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .ppp{
+        width: 83%;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 2rem;
+        margin-left: 3.5rem;
+        color: black;
+    }
